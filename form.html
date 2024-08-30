@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gaming</title>
+    <style type="text/css">
+        *
+        {
+            margin: 0px;
+            padding: 0px;
+        }
+        nav
+        {
+            background-color:#2a0445;
+            overflow: hidden;
+            margin-top: 30px;
+        }
+        nav ul li
+        {
+            list-style: none;
+            float: left;
+            margin: 10px;
+        }
+        nav ul li a
+        {
+            margin: 10px;
+            padding: 5px;
+            font-size: 1.2rem;
+            text-decoration: none;  
+            color:white;
+            font-family: "Orbitron", sans-serif;
+        }
+        a:hover
+        {
+            color:orange;
+        }
+        body
+        {
+            
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100%;
+            font-family: "Orbitron", sans-serif;
+        }
+        
+        p
+        {
+            font-family: "Orbitron", sans-serif;
+            font-size: 1rem;
+        }
+        .container{
+            position: relative;
+            font-family: "Orbitron", sans-serif;
+            
+        }
+        .text-block{
+            position: absolute;
+            top:200px;
+            right: 20px;
+            color:black ;
+           padding-left: 0px;
+           padding-right: 500px;
+        }
+        body div
+        {
+            font-size: 1.5rem;
+        }
+
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <center><h1><font color="orange">Gamez.com</font></h1></center>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="games.html">Games</a></li>
+            <li><a href="overview.html">Overview</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <img src="./homewall.jpg" alt="fun" style="width: 100%;">
+        <div class="text-block">
+         <h1><font color="white">Contact us</font> <font color="orange">About</font></h1><br>
+         <p>
+             Walking Park,Los Angeles,Brockland,USA<br><br>
+             info@cloux.com
+         </p>
+        </div>   
+     </div>
+     <center><h2>Log in</h2></center><br>
+<center><form action="./contact.py" method="post">
+    E-mail: <input type="text" name="fname"><br><br>
+    Username: <input type="text" name="uname"><br><br>
+    Password: <input type="password" name="passrd"><br><br>
+    <input type="checkbox" name="check">I agree to the Terms and Conditions...<br><br>
+    <input type="submit" name="log">
+</form></center>
+
+    
+</body>
+</html>
